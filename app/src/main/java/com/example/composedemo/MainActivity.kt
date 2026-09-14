@@ -42,8 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     ComposeDemoTheme {
-        Scaffold(modifier = Modifier.fillMaxSize()){innerPadding ->
-            Greeting("Compose", modifier = Modifier.padding(innerPadding))
-        }
+        Greeting("Android")
     }
 }
