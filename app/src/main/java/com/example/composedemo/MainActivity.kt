@@ -65,7 +65,7 @@ fun DemoText(message: String, fontSize: Float){
 
 @Preview(showSystemUi = true)
 @Composable
-fun DemoTextPreview(){
+fun DemoScreenPreview(){
     ComposeDemoTheme{
         Scaffold(modifier = Modifier.fillMaxSize()){ innerPadding ->
             DemoScreen(modifier = Modifier.padding(innerPadding))
