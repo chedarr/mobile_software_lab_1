@@ -34,8 +34,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeDemoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    DemoScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
